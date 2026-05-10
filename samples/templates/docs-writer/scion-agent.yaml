@@ -1,0 +1,3 @@
+name: docs-writer
+description: "Workshop template for the docs writer role"
+harness: gemini

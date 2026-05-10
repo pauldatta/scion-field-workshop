@@ -1,0 +1,19 @@
+# Sample Grove Settings
+# Copy to .scion/settings.yaml in your grove
+
+governance:
+  # Maximum number of LLM interaction turns per agent
+  # Prevents runaway agents that spin indefinitely
+  max_turns: 50
+
+  # Maximum runtime per agent
+  # Kills agents that exceed this duration
+  max_duration: 30m
+
+  # Automatically clean up containers after agent completion
+  auto_cleanup: true
+
+harness_defaults:
+  gemini:
+    # Default model for Gemini CLI harness
+    model: gemini-2.5-pro
