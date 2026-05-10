@@ -2,6 +2,8 @@
 
 > **Operationalize multi-agent orchestration across your SDLC with [Scion](https://github.com/GoogleCloudPlatform/scion) — the hypervisor for AI coding agents.**
 
+📖 **Workshop Site:** [pauldatta.github.io/scion-field-workshop](https://pauldatta.github.io/scion-field-workshop/)
+
 ⚠️ **Alpha Software:** Scion is pre-release. This workshop focuses on stable local-mode features. Hub and Kubernetes runtime are covered as experimental/advanced topics.
 
 ## Workshop Overview
