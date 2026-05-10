@@ -1,0 +1,69 @@
+/* Scion Workshop — Custom Styles */
+
+/* Hero section gradient */
+.md-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+/* Exercise cards */
+.exercise-card {
+  border-left: 4px solid var(--md-accent-fg-color);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  background: var(--md-code-bg-color);
+}
+
+.exercise-card h4 {
+  margin-top: 0;
+  color: var(--md-accent-fg-color);
+}
+
+/* Duration badges */
+.duration-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+/* Timeline section markers */
+.timeline-marker {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--md-accent-fg-color);
+}
+
+.timeline-marker .time {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--md-accent-fg-color);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Agent role tables */
+.md-typeset table:not([class]) th {
+  background: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+}
+
+/* Pattern highlight boxes */
+.pattern-highlight {
+  border: 1px solid var(--md-accent-fg-color);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+}
+
+.pattern-highlight strong:first-child {
+  color: var(--md-accent-fg-color);
+}
