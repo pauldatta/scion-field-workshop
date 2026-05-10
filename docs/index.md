@@ -4,12 +4,12 @@ hide:
   - toc
 ---
 
-# Scion Multi-Agent Orchestration Workshop
-
-<div style="text-align: center; margin: 2rem 0;">
-  <p style="font-size: 1.3rem; color: var(--md-default-fg-color--light);">
-    Go from running <strong>one agent</strong> to orchestrating <strong>a fleet</strong> — in 3.5 hours.
-  </p>
+<div class="hero-banner">
+  <img src="assets/banner.png" alt="Scion Workshop Banner">
+  <div class="hero-overlay">
+    <h1>Scion Multi-Agent Orchestration Workshop</h1>
+    <p>Go from running <strong>one agent</strong> to orchestrating <strong>a fleet</strong> — in 3.5 hours.</p>
+  </div>
 </div>
 
 ---
